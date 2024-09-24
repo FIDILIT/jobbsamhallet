@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobb Samhället - Hem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Jobb Samhället</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="members.html">Medlemmar</a>
+            <a href="upload.html">Ladda upp</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Hitta professionella inom ditt område</h2>
+        <p>Jobb Samhället är en plats där du kan ansluta med andra för att hitta nya möjligheter, projekt och jobb.</p>
+        <a href="members.html" class="cta-button">Utforska Medlemmar</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jobb Samhället. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobb Samhället - Medlemmar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Våra Medlemmar</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="members.html">Medlemmar</a>
+            <a href="upload.html">Ladda upp</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Lista över medlemmar</h2>
+        <ul id="member-list">
+            <!-- Dynamisk medlemslista -->
+            <li>Anna Svensson - Webbutvecklare</li>
+            <li>Johan Karlsson - Grafisk Designer</li>
+            <li>Sara Andersson - Projektledare</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jobb Samhället. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobb Samhället - Medlemmar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Våra Medlemmar</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="members.html">Medlemmar</a>
+            <a href="upload.html">Ladda upp</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Lista över medlemmar</h2>
+        <ul id="member-list">
+            <!-- Dynamisk medlemslista -->
+            <li>Anna Svensson - Webbutvecklare</li>
+            <li>Johan Karlsson - Grafisk Designer</li>
+            <li>Sara Andersson - Projektledare</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jobb Samhället. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobb Samhället - Ladda upp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ladda upp ditt CV eller projekt</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="members.html">Medlemmar</a>
+            <a href="upload.html">Ladda upp</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Ladda upp dina filer här</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="file-upload">Välj en fil att ladda upp:</label>
+            <input type="file" id="file-upload" name="file-upload" accept=".pdf,.docx">
+            <br>
+            <input type="submit" value="Ladda upp">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jobb Samhället. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0073b1;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #0073b1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #005582;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
